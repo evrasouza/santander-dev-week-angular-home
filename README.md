@@ -1,11 +1,14 @@
+## StackSpot Plugin
 <div align="center">
 
+## Jinja
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/101415619-1b103500-389d-11eb-83f8-74f87abf5eaf.png">
   <br />
   Santander Home Clone - Angular
 </h1>
 
+You can use jinja to make a template-data folder more dynamic.
   <!-- project badges -->
   <p align="center">
  <!--
@@ -29,12 +32,16 @@
     >
   </p> 
 
+complete documentation of jinja: https://jinja.palletsprojects.com/en/3.0.x/templates/
 <div align="center">
   	<a href="#">
       <img src=".github/assets/preview.png" width="400" alt="preview" />
   	</a>
 </div>
 
+### Example Inputs:
+- Resource: 
+- Method: 
   <!-- project description and menu -->
   <p align="center">
       A Clone From Santander Card home page with Angular
@@ -59,15 +66,26 @@
   </p>
 </div>
 
+### Inputs
 ## Features
 - [x] Fully Component With Angular
 
 ## Technologies & Techniques
+- project_name: demoiron
+- project_group_id: br.com.zup.notrevestudio
+- project_artifact_id: demo
+- project_springboot_version: 3.2.0
+- project_java_version: 17
 
+## Computed-inputs
 This project was developed with the following technologies:
 -   [Angular](https://angular.io)
 
-
+- project_name_capitalized: "Demoiron"
+- project_artifact_id_formatted: "demo"
+- project_artifact_id_sanitized: "demo"
+- project_base_package: "br.com.zup.notrevestudio.demo"
+- project_base_package_dir: "br/com/zup/notrevestudio/demo"
 ## Building
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
