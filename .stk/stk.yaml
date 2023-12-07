@@ -8,6 +8,7 @@ metadata:
   stack: spring-boot-rest-api-stack@1.0.0
 spec:
   type: app
+  app-id: 01HH0X2XC6J9GZESSEHMCHTXGJ
   plugins:
     - name: 
         ironmaiden-studio/spring-boot-rest-api-stack@1.0.0/notreve-springboot-base-plugin@0.0.1
