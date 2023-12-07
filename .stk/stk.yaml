@@ -1,0 +1,32 @@
+schema-version: v2
+kind: manifest
+metadata:
+  name: demo-app-ironmaiden
+  description: aSDsadA
+  starter: ironmaiden-studio/spring-boot-rest-api-stack@1.0.0/sdasdas
+  stack-version-id: 01HH0WAN42F42M0KTTPXP49RD4
+  stack: spring-boot-rest-api-stack@1.0.0
+spec:
+  type: app
+  plugins:
+    - name: 
+        ironmaiden-studio/spring-boot-rest-api-stack@1.0.0/notreve-springboot-base-plugin@0.0.1
+      alias: notreve-springboot-base-plugin-1701911262672
+      plugin-version-id: 01HH0W3PWSK2A3QR288YZQ5Q09
+      stack-version-id: 01HH0WAN42F42M0KTTPXP49RD4
+      type: app
+      inputs:
+        project_name: demoiron
+        project_group_id: br.com.zup.notrevestudio
+        project_artifact_id: demo
+        project_springboot_version: 3.2.0
+        project_java_version: '17'
+      inputs-envs: {}
+      connections:
+        generates: []
+        requires: []
+      links:
+        generates: []
+  global-inputs: {}
+  global-computed-inputs: {}
+  repository: https://github.com/evrasouza/santander-dev-week-angular-home
